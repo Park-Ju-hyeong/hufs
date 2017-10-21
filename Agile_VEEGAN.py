@@ -290,13 +290,13 @@ def parse_args():
                         help='output size')
     parser.add_argument('--eps-dim', type=int, default=1,
                         help='eps size')
-    parser.add_argument('--hidden-size', type=int, default=256,
+    parser.add_argument('--hidden-size', type=int, default=384,
                         help='MLP hidden size')
-    parser.add_argument('--num-layer', type=int, default=5,
+    parser.add_argument('--num-layer', type=int, default=4,
                         help='number of hidden layer')
-    parser.add_argument('--batch-size', type=int, default=500,
+    parser.add_argument('--batch-size', type=int, default=3000,
                         help='the batch size')
-    parser.add_argument('--log-every', type=int, default=200,
+    parser.add_argument('--log-every', type=int, default=100,
                         help='print loss after this many steps')
     parser.add_argument('--num-gen', type=int, default=10000,
                         help='number of generative data')
